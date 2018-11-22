@@ -1,0 +1,9 @@
+{
+  "name": "MustWorkout.com",
+  "version": "1.0.0",
+  "description": "MustWorkout.com Product Landing Page",
+  "main": "index.js",
+  "author": "PiterSt",
+  "license": "yes",
+  "private": false
+}
