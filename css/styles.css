@@ -218,6 +218,10 @@ footer li {
   text-decoration: none;
 }
 
+#author-info a:hover {
+  text-decoration: underline;
+}
+
 .divider {
   width: 100px;
 }
