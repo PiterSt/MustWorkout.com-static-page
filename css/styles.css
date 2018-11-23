@@ -209,6 +209,9 @@ footer li {
   color: rgb(97, 97, 97);
   line-height: 2;
 }
+#author-info p {
+  margin: 10px 0;
+}
 
 #author-info a {
   color: rgb(97, 97, 97);
@@ -217,5 +220,10 @@ footer li {
 
 .divider {
   width: 100px;
+}
+
+#profile-info {
+  font-size: 0.8em;
+  font-family: 'Source Code Pro', monospace;
 }
 /* END FOOTER */
