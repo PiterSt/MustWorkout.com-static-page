@@ -206,6 +206,13 @@ input[type=submit]:focus {
   width: 100%;
   height: 100%;
 }
+
+.section-image {
+  margin: 40px auto;
+}
+.section-image img {
+  width: 100%;
+}
 /* END SECTIONS INDIVIDUALLY */
 
 /* VIDEO STYLES */
