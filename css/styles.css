@@ -17,8 +17,8 @@ body {
 /* HEADER */
 #header {
   display: flex;
-  position: fixed;
-  top: 0;
+  /* position: fixed; */
+  /* top: 0; */
   background-color: black;
   color: white;
   justify-content: center;
@@ -102,9 +102,13 @@ h3 {
   background: linear-gradient(to right, #b97a00, #e2a400, #b97a00);
   margin: 0;
   padding: 0;
-  height: 63px;
+  height: 33px;
   text-align: center;
   margin-top: 30px;
+}
+
+.workouter img {
+  height: 100%;
 }
 
 /* SECTION GENERAL */
