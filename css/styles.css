@@ -68,21 +68,30 @@ body {
 #nav-bar a:hover {
   color: rgb(145, 145, 145);
 }
+
+#background-img {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  z-index: -1;
+}
 /* END HEADER */
 
 /* MAIN CONTENT */
 #page-wrapper {
-  background-image: url("https://gdurl.com/e9D0");
+  
 }
 
 .main-container {
+  background-image: url("https://gdurl.com/e9D0");
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   max-width: 768px;
-  margin-top: 124px;
+  z-index: -5;
 }
 
 h1, h2, h3 {
@@ -140,6 +149,7 @@ section p {
 #introduction {
 margin: 0;
 margin-bottom: 30px;
+width: 100%;
 text-align: center;
 line-height: 1.5;
 }
