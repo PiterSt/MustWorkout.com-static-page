@@ -3,8 +3,10 @@ body {
   margin: 0;
   padding: 0;
   min-width: 340px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #c8c8c8;
+  background-color: black;
+  font-size: 1em;
 }
 
 /* REUSABLE STYLES */
@@ -17,15 +19,12 @@ body {
 /* HEADER */
 #header {
   display: flex;
-  /* position: fixed; */
-  /* top: 0; */
   background-color: black;
   color: white;
   justify-content: center;
   width: 100%;
   min-width: 340px;
   height: 122px;
-  z-index: 1;
   border-bottom: 2px solid white;
 }
 
@@ -70,21 +69,22 @@ body {
 }
 
 #background-img {
-  /* position: absolute;
+  position: absolute;
   top: 0;
-  left: 0; */
+  left: 0;
   width: 100%;
   z-index: -1;
+  opacity: 0.4;
 }
 /* END HEADER */
 
 /* MAIN CONTENT */
+
 #page-wrapper {
-  
+  background-image: url("https://gdurl.com/e9D0");
 }
 
 .main-container {
-  background-image: url("https://gdurl.com/e9D0");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,6 +101,10 @@ h1, h2, h3 {
   font-weight: normal;
   text-transform: uppercase;
   text-align: center;
+}
+
+h1, h2 {
+  font-size: 1.7em;
 }
 
 h3 {
@@ -122,7 +126,7 @@ h3 {
 
 /* SECTION GENERAL */
 .section-wrapper {
-  border: 1px solid #505050;
+  border: 1px solid #5e5e5e;
   width: 100%;
   margin-bottom: 30px;
   background: #414141;
@@ -136,8 +140,7 @@ h3 {
 }
 
 .content-section {
-  line-height: 2;
-  font-size: 0.92em;
+  line-height: 2.1;
 }
 
 section p {
@@ -148,6 +151,7 @@ section p {
 /* SECTIONS INDIVIDUALLY */
 #introduction {
 margin: 0;
+padding: 0;
 margin-bottom: 30px;
 width: 100%;
 text-align: center;
@@ -158,7 +162,7 @@ line-height: 1.5;
   box-sizing: border-box;
   margin: 10px auto;
   padding: 10px 8px;
-  background-color: #c9c9c9;
+  background-color: #e7e7e7;
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9em;
   background-image: none;
@@ -173,7 +177,7 @@ line-height: 1.5;
 #introduction input[type=email]:focus {
   box-sizing: border-box;
   background-color: #fafafa;
-  width: 250px;
+  width: 260px;
   outline-color: unset;
   border: 1px solid yellow;
   
@@ -185,7 +189,7 @@ input[type=submit] {
   font-family: 'Fjalla One', sans-serif;
   text-transform: uppercase;
   color: #1d1d1d;
-  background-color: #c7ac00;
+  background-color: #dabd00;
   min-width: 120px;
   height: 45px;
   padding: 11px;
@@ -211,6 +215,10 @@ input[type=submit]:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: rgb(224, 224, 224);
+}
+#form label {
+  text-shadow: 2px 2px 5px black;
 }
 
 #video {
@@ -266,7 +274,7 @@ footer li {
 }
 
 #footer li a {
-  font-size: 17px;
+  font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
   font-family: 'Fjalla One', sans-serif;
