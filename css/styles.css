@@ -2,7 +2,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  min-width: 340px;
+  min-width: 320px;
   font-family: 'Montserrat', sans-serif;
   color: #c8c8c8;
   background-color: black;
@@ -23,7 +23,7 @@ body {
   color: white;
   justify-content: center;
   width: 100%;
-  min-width: 340px;
+  min-width: 320px;
   height: 122px;
   border-bottom: 2px solid white;
 }
@@ -68,20 +68,32 @@ body {
   color: rgb(145, 145, 145);
 }
 
+/* #img-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
+
 #background-img {
   position: fixed;
+  margin: 0;
+  padding: 0;
   top: 0;
   left: 0;
+  min-width: 320px;
   width: 100%;
-  z-index: -1;
+  height: auto;
   opacity: 0.4;
+  z-index: -1
 }
 /* END HEADER */
 
 /* MAIN CONTENT */
-
 #page-wrapper {
   background-image: url("https://gdurl.com/e9D0");
+  margin: 0;
+  padding: 0;
 }
 
 .main-container {
@@ -126,6 +138,7 @@ h3 {
 
 /* SECTION GENERAL */
 .section-wrapper {
+  box-sizing: border-box;
   border: 1px solid #5e5e5e;
   width: 100%;
   margin-bottom: 30px;
@@ -246,11 +259,6 @@ input[type=submit]:focus {
   margin: 0 auto;
 }
 
-@media (min-width: 768px) {
-  .video-container {
-    width: 90%;
-  }
-}
 /* END VIDEO STYLES */
 
 /* FOOTER */
@@ -329,3 +337,24 @@ footer li {
   font-family: 'Source Code Pro', monospace;
 }
 /* END FOOTER */
+
+@media (max-width: 365px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  #introduction {
+    min-height: 380px;;
+  }
+  #about {
+    margin-top: -80px;
+  }
+  .video-container {
+    width: 90%;
+  }
+  #background-img {
+    top: -220px;
+  }
+}
