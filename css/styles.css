@@ -9,6 +9,14 @@ body {
   font-size: 1em;
 }
 
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 /* REUSABLE STYLES */
 .no-style {
   list-style: none;
