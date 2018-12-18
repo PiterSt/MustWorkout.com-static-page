@@ -68,13 +68,6 @@ body {
   color: rgb(145, 145, 145);
 }
 
-/* #img-container {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-} */
-
 #background-img {
   position: fixed;
   margin: 0;
@@ -275,7 +268,7 @@ footer {
 
 footer li {
   display: inline;
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 #footer a {
@@ -329,7 +322,7 @@ footer li {
 }
 
 .divider {
-  width: 100px;
+  width: 140px;
 }
 
 #profile-info {
