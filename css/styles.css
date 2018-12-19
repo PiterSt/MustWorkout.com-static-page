@@ -219,7 +219,8 @@ input[type=submit]:hover {
   color: #494949;
 }
 
-input[type=submit]:focus {
+input[type=submit]:focus,
+input[type=submit]:active {
   outline: none;
   -webkit-box-shadow: inset 1px 1px 9px black;
   -moz-box-shadow:    inset 1px 1px 9px black;
@@ -237,14 +238,6 @@ input[type=submit]:focus {
   font-size: 1.2em;
 }
 
-#video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .section-image {
   margin: 40px auto;
 }
@@ -254,12 +247,18 @@ input[type=submit]:focus {
 /* END SECTIONS INDIVIDUALLY */
 
 /* VIDEO STYLES */
+/* #video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .video-container {
   position: relative;
   padding-bottom: 65%;
   margin: 0 auto;
-}
-
+} */
 /* END VIDEO STYLES */
 
 /* FOOTER */
