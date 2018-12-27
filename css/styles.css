@@ -91,6 +91,11 @@ a {
 /* END HEADER */
 
 /* MAIN CONTENT */
+.grey-hr {
+  border: 1px solid rgb(109, 109, 109);
+  box-shadow: 0 1px 2px #1d1d1d;
+}
+
 #page-wrapper {
   background-image: url("https://gdurl.com/e9D0");
   margin: 0;
@@ -122,6 +127,7 @@ h1, h2 {
 
 h3 {
   text-transform: none;
+  margin-top: 60px;
 }
 
 .workouter {
@@ -142,7 +148,7 @@ h3 {
   box-sizing: border-box;
   border: 1px solid #5e5e5e;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   background: #414141;
   color: #d6d6d6;
 }
@@ -175,7 +181,7 @@ line-height: 1.5;
 
 #introduction input[type=email] {
   box-sizing: border-box;
-  margin: 10px auto;
+  margin: 20px auto;
   padding: 10px 8px;
   background-color: #e7e7e7;
   font-family: 'Open Sans', sans-serif;
@@ -239,7 +245,7 @@ input[type=submit]:active {
 }
 
 .section-image {
-  margin: 40px auto;
+  margin: 30px auto 70px auto;
 }
 .section-image img {
   width: 100%;
