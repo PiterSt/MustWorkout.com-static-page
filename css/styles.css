@@ -164,6 +164,9 @@ h3 {
   line-height: 2.1;
   font-size: 1.1em;
 }
+.content-section a {
+  color: rgb(47, 122, 235);
+}
 
 section p {
   margin-top: 50px;
@@ -252,21 +255,6 @@ input[type=submit]:active {
   width: 100%;
 }
 /* END SECTIONS INDIVIDUALLY */
-
-/* VIDEO STYLES */
-/* #video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.video-container {
-  position: relative;
-  padding-bottom: 65%;
-  margin: 0 auto;
-} */
-/* END VIDEO STYLES */
 
 /* FOOTER */
 footer {
