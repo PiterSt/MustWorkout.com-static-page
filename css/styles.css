@@ -91,6 +91,11 @@ a {
 /* END HEADER */
 
 /* MAIN CONTENT */
+.grey-hr {
+  border: 1px solid rgb(109, 109, 109);
+  box-shadow: 0 1px 2px #1d1d1d;
+}
+
 #page-wrapper {
   background-image: url("https://gdurl.com/e9D0");
   margin: 0;
@@ -121,7 +126,9 @@ h1, h2 {
 }
 
 h3 {
-  text-transform: none;
+  margin-left: 40px;
+  margin-top: 60px;
+  text-align: left;
 }
 
 .workouter {
@@ -142,7 +149,7 @@ h3 {
   box-sizing: border-box;
   border: 1px solid #5e5e5e;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   background: #414141;
   color: #d6d6d6;
 }
@@ -156,6 +163,9 @@ h3 {
 .content-section {
   line-height: 2.1;
   font-size: 1.1em;
+}
+.content-section a {
+  color: rgb(47, 122, 235);
 }
 
 section p {
@@ -175,7 +185,7 @@ line-height: 1.5;
 
 #introduction input[type=email] {
   box-sizing: border-box;
-  margin: 10px auto;
+  margin: 20px auto;
   padding: 10px 8px;
   background-color: #e7e7e7;
   font-family: 'Open Sans', sans-serif;
@@ -239,27 +249,12 @@ input[type=submit]:active {
 }
 
 .section-image {
-  margin: 40px auto;
+  margin: 30px auto 70px auto;
 }
 .section-image img {
   width: 100%;
 }
 /* END SECTIONS INDIVIDUALLY */
-
-/* VIDEO STYLES */
-/* #video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.video-container {
-  position: relative;
-  padding-bottom: 65%;
-  margin: 0 auto;
-} */
-/* END VIDEO STYLES */
 
 /* FOOTER */
 footer {
@@ -356,6 +351,12 @@ footer li {
 @media (max-width: 365px) {
   h1 {
     font-size: 1.5em;
+  }
+}
+
+@media (max-width: 599px) {
+  h3 {
+    margin-left: 10px;
   }
 }
 
