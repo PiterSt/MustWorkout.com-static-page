@@ -97,7 +97,7 @@ a {
 }
 
 #page-wrapper {
-  background-image: url("https://gdurl.com/e9D0");
+  background-image: url('../static-images/bg.png');
   margin: 0;
   padding: 0;
 }
